@@ -9,17 +9,13 @@ let lastName= ("dibiaezue");
 let fullName= (firstName+lastName);
 console.log(fullName)
 */
-let username= window.prompt('whats your username');
-console.log(username);
-let fullName= window.prompt('whats your full name');
-console.log(fullName);
-let firstTimeDriving= window.prompt('is this your first time driving');
-console.log(firstTimeDriving);
-let driversAge= window.prompt('how old are you');
-console.log(driversAge);
-if(driversAge>=17);
-return console.log("sorry");
-else
-return console.log("welcome"); 
-   // console.log('sorry unable to drive at the moment')
-    //else()
+let username = window.prompt('whats your username')
+let fullName = window.prompt('whats your full name')
+let firstTimeDriving = window.prompt('is this your first time driving')
+let driversAge = window.prompt('how old are you')
+if(driversAge<=17){
+    console.log('not old enough to drive')
+}
+else{
+    console.log('congratulations Pilot')
+}
