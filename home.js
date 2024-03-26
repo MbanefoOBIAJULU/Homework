@@ -41,6 +41,12 @@ console.log(wel)*/
 
 
 
+let firstName, lastName, price, discount, fullPrice;
+firstName = "obiajulu"
+lastName = "dibiaezue"
+price = 19.90
+discount = 0.10;
+fullPrice = (price + discount);
+console.log(fullPrice)
 
 
-console.info('...iWillBecomeAnExpertSoon:[soHelpMeGod]' );
