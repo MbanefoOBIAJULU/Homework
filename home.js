@@ -27,20 +27,6 @@ console.log('welcome and welcome');
 const wel = 'welcome to my Developing school';
 console.log(wel)*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 let firstName, lastName, price, discount, fullPrice;
 firstName = "obiajulu"
 lastName = "dibiaezue"
