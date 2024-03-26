@@ -1,4 +1,4 @@
-let customerName = window.prompt('whats your name?')
+/*let customerName = window.prompt('whats your name?')
 let firstTimeDriving = window.prompt('is this your first time driving?')
 let customerNickName = window.prompt('whats your nickname?')
 let customerAge = window.prompt('how old are you?')
@@ -7,4 +7,4 @@ let customerAge = window.prompt('how old are you?')
  }
 else {
     console.log('congratulations, you can drive now')
-}
+}*/
