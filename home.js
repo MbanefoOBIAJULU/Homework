@@ -27,12 +27,24 @@ console.log('welcome and welcome');
 const wel = 'welcome to my Developing school';
 console.log(wel)*/
 
-let firstName, lastName, price, discount, fullPrice;
+/*let firstName, lastName, price, discount, fullPrice;
 firstName = "obiajulu"
 lastName = "dibiaezue"
 price = 19.90
 discount = 0.10;
 fullPrice = (price + discount);
 console.log(fullPrice)
- 
+ */
+let i = 100;
+while   (i<=200)
+    console.log(i){
+    i += 20
+}
+
+let income =1500
+if (income < 2500) {
+    var tax = 500
+} else {
+    console.log(tax)
+}
 
