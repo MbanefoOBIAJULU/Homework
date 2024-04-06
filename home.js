@@ -48,11 +48,14 @@ if (income < 2500) {
     console.log(tax)
 }*/ 
 for (n = 1; n <=100; n++) {
-    if(n % 3 ==0){
+    if ((n % 3 ==0) && (n % 5 ==0)) {
+        console.log("fizzBuzz")
+    }
+    else if(n % 3 ==0){
     console.log("fizz")
 }
-if(n % 5 ==0){
+else if(n % 5 ==0){
 console.log("buzz")
 }
-    console.log(n)
+ else console.log(n)
 }
