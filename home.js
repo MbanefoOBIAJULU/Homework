@@ -3,8 +3,8 @@ if(50>151){
     console.log('gio')
 }
 else{console.log('bio')
-}*/
-/*let firstName= ("obiajulu");
+}
+let firstName= ("obiajulu");
 let lastName= ("dibiaezue");
 let fullName= (firstName+lastName);
 console.log(fullName)
@@ -19,13 +19,13 @@ if(driversAge<=17){
 else{
     console.log('congratulations Pilot')
 } 
-/*const tab = [
+const tab = [
     {number: '1', product: 'oilPerfume', amountSold: '200', whoSold: 'obiajulu', }
 ];
 console.table(tab)
 console.log('welcome and welcome');
 const wel = 'welcome to my Developing school';
-console.log(wel)*/
+console.log(wel)
 
 let firstName, lastName, price, discount, fullPrice;
 firstName = "obiajulu"
@@ -34,16 +34,25 @@ price = 19.90
 discount = 0.10;
 fullPrice = (price + discount);
 console.log(fullPrice)
- /*
+
 let i = 100;
 while   (i<=300)
    { console.log(i) 
         i += 40
 }
 
-let income =1500
+/*let income =1500
 if (income < 2500) {
     var tax = 500
 } else {
     console.log(tax)
-}*/
+}*/ 
+for (n = 1; n <=100; n++) {
+    if(n % 3 ==0){
+    console.log("fizz")
+}
+if(n % 5 ==0){
+console.log("buzz")
+}
+    console.log(n)
+}
