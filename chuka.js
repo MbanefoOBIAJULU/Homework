@@ -36,10 +36,10 @@ if (age >=100){
      }
     } */
 
-    for (var i = 1; i < 101; i++) {
-      if (i % 15 == 0) console.log("FizzBuzz");
-      else if (i % 3 == 0) console.log("Fizz");
-      else if (i % 5 == 0) console.log("Buzz");
-      else console.log(i);
+    for (var w = 1; w < 101; w++) {
+      if (w % 15 == 0) console.log("FizzBuzz");
+      else if (w % 3 == 0) console.log("Fizz");
+      else if (w % 5 == 0) console.log("Buzz");
+      else console.log(w);
   }
     
